@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.RedPacketDao">
+    <select id="getRedPacket" parameterType="long" resultType="pojo.RedPacket">
+        select id,user_id as userId,amount,send_date as sendDate,total,unit_amount as unitAmount,stock,version,note from t_red_packet where id=#{id}
+    </select>
+
+    <update id="decreaseRedPacket">
+        update t_red_packet set stock =stock-1 where id=#{id}
+    </update>
+</mapper>

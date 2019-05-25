@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+	<!-- 配置名为person的Bean，其实现类是org.crazyit.app.service.Person类 -->
+	<bean id="chinese" class="com.lzh.Chinese">
+		<!-- 控制调用setAxe()方法，将容器中axe Bean作为传入参数 -->
+		<constructor-arg ref="tieAxe"/>
+	</bean>
+	<bean id="stoneAxe" class="com.lzh.StoneAxe"/>
+	<bean id="tieAxe" class="com.lzh.TieAxe"/>
+</beans>

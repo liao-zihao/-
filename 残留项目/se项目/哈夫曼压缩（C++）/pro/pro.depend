@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1533112902 source:c:\users\lzh\desktop\算法pro（c++）\pro\main.cpp
+	"ComAndEx.h"
+
+1533112416 c:\users\lzh\desktop\算法pro（c++）\pro\comandex.h
+	<vector>
+	"Hnode.h"
+	"Huffmancode_node.h"
+	<iostream>
+	<fstream>
+
+1533111349 c:\users\lzh\desktop\算法pro（c++）\pro\hnode.h
+
+1533111349 c:\users\lzh\desktop\算法pro（c++）\pro\huffmancode_node.h
+	<string>
+
+1533118518 source:c:\users\lzh\desktop\算法pro（c++）\pro\comandex.cpp
+	"ComAndEx.h"
+

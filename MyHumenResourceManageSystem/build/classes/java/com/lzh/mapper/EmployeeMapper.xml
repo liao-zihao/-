@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="java.com.lzh.dao.employeedao">
+	<delete id="deleteById" parameterType="integer" >
+		delete from t_employee where emp_id = #{empId}
+	</delete>
+	
+	<update id="updateById" parameterType="java.com.lzh.pojo.employee">
+		update t_employee set
+		emp_email=#{emp.empEmail,jdbcType=VARCHAR},
+		emp_gender=#{emp.empGender,jdbcType=varchar},
+		emp_department_id=#{emp.departmentId,jdbcType=INTEGER},
+		where emp_id=#{empId,jdbcType=integer}
+	</update>
+	
+	<insert id="insertOne" parameterType="java.com.lzh.pojo.employee">
+		insert into t_employee (emp_name, emp_email, emp_gender, emp_department_id)
+		values(#{emp.empName},
+				#{emp.empEmail},
+				#{emp.empGender},
+				#{emp.empDepartmentId})
+	</insert>
+	
+	<select id="selectById" parameterType="Integer" resultType="java.com.lzh.pojo.employee">
+		select emp_id empId,emp_name empName,emp_email empEmail,emp_gender empGender,emp_department_id empDepartmentId
+		from t_employee
+		where emp_id=#{empId}
+	</select>
+	
+	<select id="selectByName" parameterType="String" resultType="java.com.lzh.pojo.employee">
+		select emp_id empId,emp_name empName,emp_email empEmail,emp_gender empGender,emp_department_id empDepartmentId
+		from t_employee
+		where emp_name=#{empName}
+	</select>
+	
+	<select id="totalCount">
+		select count(*) from t_employee
+	</select> 
+</mapper>

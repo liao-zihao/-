@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzh.mapper.EmployeeMapper">
+    <resultMap id="employee" type="com.lzh.pojo.Employee">
+        <id column="id" property="id"/>
+        <result column="real_name" property="realName"/>
+        <result column="sex" property="sex"
+                typeHandler="com.lzh.typeHandler.SexTypeHandler"/>
+        <result column="birthday" property="birthday"/>
+        <result column="mobile" property="mobile"/>
+        <result column="email" property="email"/>
+        <result column="position" property="position"/>
+        <result column="note" property="note"/>
+        <association property="workCard" column="id"
+                     select="com.lzh.mapper.WorkCardMapper.getWorkCardByEmpId"/>
+        <collection property="employeeTaskList" column="id"
+                    fetchType="eager"
+                    select="com.lzh.mapper.EmployeeTaskMapper.getEmployeeTaskByEmpId"/>
+        <discriminator javaType="long" column="sex">
+            <case value="1" resultMap="maleHealthFormMapper"/>
+            <case value="2" resultMap="femaleHealthFormMapper"/>
+        </discriminator>
+    </resultMap>
+    
+    <resultMap id="femaleHealthFormMapper" type="com.lzh.pojo.FemaleEmployee"
+</mapper>

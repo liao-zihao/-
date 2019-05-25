@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.feeling.dao.FeelingDao">
+  <select id="searchAllCount" resultType="int">
+  	select count(f_id) from feeling
+  </select>
+  
+	<select id="showAll" parameterType="com.feeling.bean.Page" resultType="com.feeling.bean.Feeling">
+		select f_id,f_title,f_content,f_date,f_type from feeling limit #{start},#{rownum}
+	</select>
+	<insert id="addFeeling" parameterType="com.feeling.bean.Feeling">
+		insert into feeling (f_id,f_title,f_content,f_date,f_type) values(#{f_id},#{f_title},#{f_content},now(),#{f_type})
+	</insert>
+	<select id="searchFeeling" parameterType="int" resultType="com.feeling.bean.Feeling">
+		select f_id,f_title,f_content,f_date,f_type from feeling where f_id=#{int}
+	</select>
+</mapper>

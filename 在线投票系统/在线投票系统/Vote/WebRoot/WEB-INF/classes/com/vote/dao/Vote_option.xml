@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vote.dao.Vote_subjectDao">
+	<select id="searchoption" parameterType="int" resultType="com.vote.bean.Vote_option" >
+	  	select vo_id,vo_option,vs_id,vo_order from vote_subject where vs_id=#{int}
+	</select>
+	
+</mapper>

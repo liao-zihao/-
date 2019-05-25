@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vote.dao.Vote_subjectDao">
+	<resultMap type="com.vote.vo.ShowVo" id="ShowSubjectMap">
+ 		<id column="sid" property="sid"/>
+ 		<result column="vs_type" property="type"/>
+ 		<result column="vs_title" property="title"/>
+ 		<result column="numoptions" property="numoptions"/>
+ 	</resultMap>
+	<select id="searchAllCount" parameterType="com.vote.vo.Page" resultType="int" >
+	  	select count(vs_id) from vote_subject where 1=1
+	  	<if test="title!=null">
+	  		and title like '%${title}%'
+	  	</if> 
+	</select>
+	
+	<select id="showall" parameterType="com.vote.vo.Page" resultMap="ShowSubjectMap" >
+	  	select sub.vs_id as sid,vs_title,vs_type,numoptions from
+	  	 vote_subject sub,(select vs_id,count(vo_order)as numoptions from vote_option group by vs_id) num 
+	  	 where num.vs_id=sub.vs_id
+	  	 <if test="title!=null">
+	  		and title like '%${title}%'
+	  	</if>
+	  	 limit #{start},#{rownum}
+	</select>
+	
+</mapper>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="chatroom2"
+  id="myeclipse.1406204297718"
+  context-root="/chatroom2"
+  j2ee-spec="5.0"
+  archive="chatroom2.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

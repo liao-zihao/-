@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.custom.i18n.resource" value="mess"></constant>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+
+    <package name="lzh" namespace="/" extends="struts-default">
+		<action name="*">
+            <result>/WEB-INF/content/{1}.jsp</result>
+        </action>
+        <action name="login" class="com.lzh.app.action.LoginAction">
+        	<result name="error">/WEB-INF/content/error.jsp</result>
+            <result name="success">/WEB-INF/content/welcome.jsp</result>
+        </action>
+    </package>
+
+</struts>

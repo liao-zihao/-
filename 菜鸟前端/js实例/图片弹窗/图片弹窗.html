@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片弹窗</title>
+    <link rel="stylesheet" type="text/css" href="xxx.css">
+    <script src="xxx.js"></script>
+</head>
+<body>
+
+<img id="myImg" src="2.jpg" alt="WLOP" width="300" height="200">
+
+<!-- 弹窗 -->
+<div id="myModal" class="modal">
+
+    <!-- 关闭按钮 -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+    <!-- 弹窗内容 -->
+    <img class="modal-content" id="img01">
+
+    <!-- 文本描述 -->
+    <div id="caption"></div>
+</div>
+
+</body>
+</html>

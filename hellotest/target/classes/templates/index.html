@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{css/bootstrap.min.css}"/>
+<link rel="stylesheet" th:href="@{css/bootstrap-theme.min.css}"/>
+<script type="text/javascript" th:src="@{js/jQuery-1.11.0.min.js}"></script>
+<script type="text/javascript" th:src="@{js/bootstrap.min.js}"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#loginbtn").click(function(){
+			var loginName=$("#loginName");
+			var password=$("#password");
+			var msg="";
+			if(loginName.val()==""){
+				msg="登录名不能为空";
+				loginName.focus();
+			}else if(password.val()==""){
+				msg="密码不能为空!";
+				password.focus();
+			}
+			if(msg!=""){
+				alert(mag);
+			}else{
+				$("#loginform").submit();
+			}
+		})
+	})
+</script>
+</head>
+<body>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">第一个spring boot开发示例</h3>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="page-header">
+			<h2>用户登录</h2>
+			<form class="form-horizontal"action="login"method="post"id="loginform">
+				<div class="form-grroup">
+					<div class="input-group col-md-4">
+						<span class="input-group-addon"><i class = "glyphicon glyphicon-user"></i></span>
+						<input class="form-control" placeholder="用户名/邮箱" type="text" name = "loginName" id="loginName"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="input-group col-md-4">
+						<span class="input-group-addon">
+							<i class="glyphicon glyphicon-lock"></i>
+						</span>
+						<input class="form-control" placeholder="密码" type="password" name="password" id="password">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-4">
+						<div class="btn-group btn-group-justified">
+							<div class="btn-group">
+								<button type="button" class="btn btn-success"id="loginbtn">
+									<span class="glyphicon glyphicon-log-in"></span>
+									&nbsp;登录
+								</button>
+							</div>
+							<div class="btn-group">
+								<button type="button" class="btn btn-danger"id="registerbtn">
+									<span class="glyphicon glyphicon-edit"></span>
+									&nbsp;注册
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
