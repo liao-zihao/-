@@ -1,0 +1,11 @@
+import requests
+import json
+import re
+from lxml import etree
+
+headers={
+	'Cookie':'tgw_l7_route=a37704a413efa26cf3f23813004f1a3b; _zap=304fc801-4739-462d-855a-258d2b1a4e23; _xsrf=PPrmaCTCgW8ejipMPXB4JXN2hwgPOiRQ; d_c0="ADAk7SXQEA-PTjRxwNRtG6dD6dJ8kbYt7HY=|1551606344"; capsion_ticket="2|1:0|10:1551606345|14:capsion_ticket|44:MGQyMjY3MDkzZTAwNDBhMWE5YWJkZDE5Y2ExNjIyNzA=|2c611e1eeea0ec4f11e704a9ab7f1233d305a5114efa41b1240ef53b6d585ee9"; l_n_c=1; r_cap_id="NTRhMGViOTM3YTQ1NGE1MGE1MzU2MWQ3YTJiMzQxZTU=|1551606348|390d1d48970d325a101ad8812b80a52638f38cfb"; cap_id="M2Y0NDE5NmQ2ZTdiNDJmZmI3YmNmNjNmNzJlNWYzZWE=|1551606348|730e721e1da20adeb0ce261d7dba64afd0ffa772"; l_cap_id="NGYxMjNjNWJmOTJjNDhiNzlmNGU5ZmNhMjUyNTA1OTA=|1551606348|b50a298fd4bd78023e98fda0733694b8c714e32b"; n_c=1; z_c0=Mi4xemdYdEFRQUFBQUFBTUNUdEpkQVFEeGNBQUFCaEFsVk5VUEJvWFFEQmFwN2ZYMTVfc3VZVFpnTFE0WFF5RmtRLWdB|1551606352|781d15522bbb61a9a7d89fe6ca964ef418a5322a; tst=r; q_c1=ebc7cda4a07949ccbb0da34e10c66c3c|1551606355000|1551606355000',
+	'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0'
+}
+url='https://www.zhihu.com/question/41895584'	
+#暂时不能实施
