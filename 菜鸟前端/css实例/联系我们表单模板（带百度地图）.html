@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style inputs */
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Style the container/contact section */
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* 响应式布局 */
+        @media screen and (max-width: 600px) {
+            .column, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+    </style>
+    <script src="https://api.map.baidu.com/api?v=2.0&ak=1a3c89ddb9bcfaf5b9dc4b62e3f2a05b"></script>
+</head>
+<body>
+<h2>联系表单 - 响应式</h2>
+<p>重置浏览器窗口大小，查看效果</p>
+
+<div class="container">
+    <div style="text-align:center">
+        <h2>联系我们</h2>
+        <p>请填写信息:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div id="allmap" style="width:100%;height:500px"></div>
+        </div>
+        <div class="column">
+            <form action="/action_page.php">
+                <label for="name">姓名</label>
+                <input type="text" id="fname" name="name" placeholder="您的称呼..">
+                <label for="phone">联系电话</label>
+                <input type="text" id="phone" name="phone" placeholder="联系电话..">
+                <label for="country">测试</label>
+                <select id="country" name="country">
+                    <option value="bj">北京</option>
+                    <option value="sh">上海</option>
+                    <option value="sz">深圳</option>
+                </select>
+                <label for="subject">留言</label>
+                <textarea id="subject" name="subject" placeholder="写入一些信息.." style="height:170px"></textarea>
+                <input type="submit" value="提交">
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");    // 创建Map实例
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+    //添加地图类型控件
+    map.addControl(new BMap.MapTypeControl({
+        mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));
+    map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩
+</script>
+</body>
+</html>
