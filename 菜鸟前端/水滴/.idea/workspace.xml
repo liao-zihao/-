@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="096ae4c3-ce74-4742-ac4a-4d9be842a7e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/file_info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/os.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node js相关/un_block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/js/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/js/jquery.gesture.password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/1·.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/demo-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/ico1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/ico2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/ico3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/ico4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/ico5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/ico6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/ico7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/s_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/s_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/s_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/s_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/s_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/s_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/优化右键菜单/images/title_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/image/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/image/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/image/demo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/图片廊/image/mhrf-dspd42372f10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/手势密码/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/手势密码/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/自定义滚动条/1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/自定义滚动条/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/触碰动画/1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/触碰动画/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css3+jquery实例/触碰动画/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/components/Head.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/components/HelloWorld1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/components/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/components/home-page.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/components/home_page/about.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/components/home_page/article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/components/home_page/contact.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/components/home_page/introduce.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/components/home_page/life.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../water_drop/src/touxiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../博客/src/components/Head.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../博客/src/components/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../博客/src/components/Left.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../博客/src/components/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../博客/src/components/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../博客/src/components/Right.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../博客/static/image/ice_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../博客/static/image/touxiang.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servers/Tomcat v8.5 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Servers/Tomcat v8.5 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../残留项目/安卓项目demo/BroadcastPractice" beforeDir="false" afterPath="$PROJECT_DIR$/../../残留项目/安卓项目demo/BroadcastPractice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/一个网页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/三种价格表样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/上一页，下一页样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/上下左右四个方向箭头.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/下拉菜单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/便签样式效果.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/分页样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/加载-动画效果.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/加载-动画效果2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/加载-动画效果3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/加载-动画效果4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/加载进度条.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/动态搜索框.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/反馈信息表单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/各种信息提示框.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/响应式登录表单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/固定左侧导航栏-高度自适应.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/固定左侧导航栏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/固定菜单栏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/图标菜单栏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/垂直按钮组.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/垂直滚动菜单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/垂直菜单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/导航栏下拉菜单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/带搜索导航栏-带提交按钮.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/带搜索导航栏-带提搜索图标.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/带搜索框的导航栏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/开关样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/按钮组.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/提示信息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/文字覆盖图像悬停效果-从上至下.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/文字覆盖图像悬停效果-淡入透明.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/文字覆盖图像悬停效果.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/水平滚动菜单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/用户信息卡片.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/联系我们表单模板（带百度地图）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/进度条.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css实例/顶部导航实例.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jquery-validation-1.14.0.zip" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/water-drop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="125" column="32" lean-forward="true" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/water-drop.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/水滴.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="水滴" type="b2602c69:ProjectViewProjectNode" />
+              <item name="水滴" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="水滴" type="b2602c69:ProjectViewProjectNode" />
+              <item name="水滴" type="462c0819:PsiDirectoryNode" />
+              <item name="网页" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="水滴" type="b2602c69:ProjectViewProjectNode" />
+              <item name="水滴" type="462c0819:PsiDirectoryNode" />
+              <item name="网页" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="096ae4c3-ce74-4742-ac4a-4d9be842a7e6" name="Default Changelist" comment="" />
+      <created>1563010581944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563010581944</updated>
+      <workItem from="1563010583208" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="226000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/网页/image/timg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/water-drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="125" column="32" lean-forward="true" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
